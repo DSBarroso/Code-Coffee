@@ -1,3 +1,5 @@
+USE CODCOFFEE;
+
 INSERT INTO Produto(nome, descricao, preco, categoria, disponivel)
 VALUES (
 "Expresso Brasileiro Intenso", "Forte, encorpado, com gotas de chocolate amargo e nozes", 8.5, "Cafés", true),
