@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4ede6;
+}
+
+/* NAVBAR */
+
+header{
+    height: 50px;
+}
+
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hero .text{
+    margin-bottom: 50px;
+}
+
+.hero h2{
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: playfair display, serif;
+    width: 75%;
+    color: #5C3A21;
+}
+
+.hero p {
+    line-height: 1.6;
+    text-align: justify;
+    color:#5C3A21;
+    font-family: poppins, sans-serif;
+    width: 75%;
+    padding-left: 70px;
+}
+
+.hero .image img {
+    width: 400px;
+    margin-right: 100px;
+}
+
+/* CAFÉS */
+.cafes {
+    background: #d9c2a7;
+    padding: 40px;
+    text-align: center;
+}
+
+.cafes h2 {
+    margin-bottom: 10px;
+    color:#5f5033;
+}
+
+.cafes p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color:#ffffff;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 150px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card button {
+    margin-top: 10px;
+    background: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* BOTÕES */
+.cta {
+    margin: 30px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.reserva, .pedido {
+    background: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* SOBRE */
+
+.sobre {
+    padding: 40px;
+    text-align: center;
+}
+
+.sobre-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    color:rgb(133, 116, 93)
+}
+.sobre h2 {
+    color:rgb(87, 73, 54)
+}
+
+.sobre .texto {
+    width: 50%;
+    text-align: left;
+    font: size 50px; ;
+    color:rgb(117, 103, 84)
+}
+
+.imagens-sobre {
+    
+    display: flex;
+    gap: 25px;
+}
+
+.imagens-sobre img {
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+}
+.porque h2 {
+    color:rgb(73, 62, 45)
+}
+
+/* POR QUE */
+.porque {
+    background: #d9c2a7;
+    padding: 40px;
+    text-align: center;
+}
+
+.porque p {
+    max-width: 700px;
+    margin: 20px auto;
+    color:rgb(99, 85, 67)
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.galeria img {
+    width: 200px;
+    border-radius: 10px;
+}
