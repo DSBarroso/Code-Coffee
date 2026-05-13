@@ -5,6 +5,7 @@ body{
 
 
 .navbar {
+    z-index: 2;
     position: fixed;
     display: flex;
     align-items: center;

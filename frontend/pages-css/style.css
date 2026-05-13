@@ -103,7 +103,7 @@ header{
     font-size: 16px;
     justify-content: center;
     width:75%;
-    margin: 0 auto 30px;
+    margin: 0 auto 10px;
 }
 
 .card-valor{
@@ -111,19 +111,17 @@ header{
     font-size: 20px;
     font-family: poppins, sans-serif;
     color: #5C3A21;
-    margin: 0 auto 0;
 }
 
 .card .card-desc{
     text-align: center;
-    margin-left: 30px;
     color: #7A6A5A;
     font-family: poppins, sans-serif;
     width: 70%;
     font-size: 12px;
     line-height: 1.5;
-    margin-top: 10px;
-    margin: 0 auto 30px;
+    margin-top: 0;
+    margin: 0 auto;
 }
 
 .card img {
@@ -166,72 +164,97 @@ header{
 }
 
 
-
-
-
-
-
-/* SOBRE */
+/* PÁGINA SOBRE */
 
 .sobre {
-    padding: 40px;
-    text-align: center;
+    padding: 80px;
+    background-color: #F0E4D7;
 }
 
 .sobre-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
-    color:rgb(133, 116, 93)
 }
+
+.sobre .texto{
+    margin-left: 80px;
+}
+
 .sobre h2 {
-    color:rgb(87, 73, 54)
+    font-size: 30px;
+    color:#5C3A21;
+    font-family: playfair display, serif;
+    margin-bottom: 45px;
+    text-align: center;
+    font-weight: normal;
 }
 
-.sobre .texto {
-    width: 50%;
-    text-align: left;
-    font: size 50px; ;
-    color:rgb(117, 103, 84)
-}
+.sobre p {
+    max-width: 400px;
+    color: #5C3A21;
+    text-align: justify;
+    font-family: poppins, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
 
-.imagens-sobre {
-    
-    display: flex;
-    gap: 25px;
 }
 
 .imagens-sobre img {
-    width: 250px;
-    height: 350px;
+    width: auto;
+    height: 300px;
     border-radius: 15px;
 }
+
+.imagens-sobre #img1{
+    top: 50px;
+    position: relative;
+}
+
+.imagens-sobre #img2{
+    z-index: 1;
+    right: 50px;
+    top: -25px;
+    position: relative;
+}
+
+
+
 .porque h2 {
-    color:rgb(73, 62, 45)
+    font-size: 30px;
+    color:#5C3A21;
+    font-family: playfair display, serif;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
 }
 
 /* POR QUE */
 .porque {
-    background: #d9c2a7;
+    background: #FFF6EC;
     padding: 40px;
     text-align: center;
 }
 
 .porque p {
-    max-width: 700px;
-    margin: 20px auto;
-    color:rgb(99, 85, 67)
+    color: #5C3A21;
+    text-align: justify;
+    font-family: poppins, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .galeria {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
     margin-top: 20px;
 }
 
 .galeria img {
-    width: 200px;
+    width: auto;
+    height: 250px;
     border-radius: 1;
 }
