@@ -278,6 +278,7 @@ header{
         }
         .reserva-header h1 {
             font-family: 'Playfair Display', serif;
+            font-weight: normal;
             font-size: 42px;
             margin: 0;
         }
@@ -403,6 +404,7 @@ header{
         }
         .cadastro-header h1 {
             font-family: 'Playfair Display', serif;
+            font-weight: normal;
             font-size: 36px;
             margin: 0;
         }
@@ -489,6 +491,7 @@ header{
         }
         .carrinho-header h1 {
             font-family: 'Playfair Display', serif;
+            font-weight: normal;
             font-size: 36px;
             margin: 0;
         }
@@ -545,6 +548,7 @@ header{
         .total-section h2 {
             color: #5C3A21;
             font-family: 'Playfair Display', serif;
+            font-weight: normal;
         }
         .btn-finalizar {
             background: #8B5E3C;
@@ -574,6 +578,7 @@ header{
         }
         .contato-hero h1 {
             font-family: 'Playfair Display', serif;
+            font-weight: normal;
             font-size: 48px;
             color: #5C3A21;
             margin-bottom: 20px;
@@ -641,6 +646,7 @@ header{
         .info-contato h2 {
             color: #5C3A21;
             font-family: 'Playfair Display', serif;
+            font-weight: normal;
             font-size: 32px;
             margin-bottom: 30px;
         }
