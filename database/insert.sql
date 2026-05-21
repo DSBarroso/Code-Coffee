@@ -49,4 +49,9 @@ VALUES ("João", "joaomenezes@gmail.com", "gutajota789@", "11 96785-3056"),
 ("Maria José", "mariajosesilva@hotmail.com", "mjsilva07891", "11 95632-4599"),
 ("Carmen Souza", "souzacarmen@gmail.com", "csmoreira456723", "11 93756-4872"),
 ("Carlos Montes", "cmontes56@gmail.com", "montescarlos@5623", "11 98627-2257"),
-("José Barbosa", "josebarbosa@hotmail.com", "873barb#", "11 93266-5816");
+("José Barbosa", "josebarbosa@hotmail.com", "873barb#", "11 93266-5816"),
+('Ana Carolina Souza', 'ana.souza@gmail.com', 'ana123@', '11 98765-1234'),
+('Bruno Henrique Lima', 'bruno.lima@hotmail.com', 'bruno456@', '11 97654-2345'),
+('Camila Fernandes Rocha', 'camila.rocha@gmail.com', 'camila789@', '11 96543-3456'),
+('Diego Martins Silva', 'diego.silva@yahoo.com', 'diego321@', '11 95432-4567'),
+('Fernanda Oliveira Costa', 'fernanda.costa@gmail.com', 'fernanda654@', '11 94321-5678');
