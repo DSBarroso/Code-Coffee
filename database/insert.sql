@@ -49,9 +49,65 @@ VALUES ("João", "joaomenezes@gmail.com", "gutajota789@", "11 96785-3056"),
 ("Maria José", "mariajosesilva@hotmail.com", "mjsilva07891", "11 95632-4599"),
 ("Carmen Souza", "souzacarmen@gmail.com", "csmoreira456723", "11 93756-4872"),
 ("Carlos Montes", "cmontes56@gmail.com", "montescarlos@5623", "11 98627-2257"),
-("José Barbosa", "josebarbosa@hotmail.com", "873barb#", "11 93266-5816"),
-('Ana Carolina Souza', 'ana.souza@gmail.com', 'ana123@', '11 98765-1234'),
-('Bruno Henrique Lima', 'bruno.lima@hotmail.com', 'bruno456@', '11 97654-2345'),
-('Camila Fernandes Rocha', 'camila.rocha@gmail.com', 'camila789@', '11 96543-3456'),
-('Diego Martins Silva', 'diego.silva@yahoo.com', 'diego321@', '11 95432-4567'),
-('Fernanda Oliveira Costa', 'fernanda.costa@gmail.com', 'fernanda654@', '11 94321-5678');
+("José Barbosa", "josebarbosa@hotmail.com", "873barb#", "11 93266-5816");
+
+
+INSERT INTO Reserva
+(id_cliente, data_reserva, horario, qtd_pessoas, status)
+VALUES
+(1, '2026-06-20', '19:00:00', 2, 'confirmada'),
+(2, '2026-06-20', '20:00:00', 4, 'confirmada'),
+(3, '2026-06-21', '18:30:00', 3, 'ativa'),
+(4, '2026-06-21', '21:00:00', 5, 'confirmada'),
+(5, '2026-06-22', '19:30:00', 2, 'cancelada');
+
+INSERT INTO Reserva_Mesa
+(id_reserva, id_mesa)
+VALUES
+(1,1),
+(2,2),
+(3,3),
+(4,6),
+(5,5);
+
+INSERT INTO Pedido
+(id_cliente, status)
+VALUES
+(1,'finalizado'),
+(1,'finalizado'),
+(2,'em preparo'),
+(3,'finalizado'),
+(4,'recebido'),
+(5,'finalizado');
+
+INSERT INTO Item_Pedido
+(id_pedido, id_produto, quantidade, preco_unitario)
+VALUES
+
+-- Pedido 1 (João)
+(1,1,2,8.50),
+(1,17,2,6.00),
+(1,9,1,15.00),
+
+-- Pedido 2 (João)
+(2,2,1,12.00),
+(2,21,1,8.00),
+
+-- Pedido 3 (Maria José)
+(3,4,2,10.00),
+(3,18,1,10.00),
+(3,15,2,7.00),
+
+-- Pedido 4 (Carmen)
+(4,3,1,10.00),
+(4,11,1,12.00),
+(4,23,1,10.00),
+
+-- Pedido 5 (Carlos)
+(5,7,2,10.00),
+(5,13,1,20.00),
+
+-- Pedido 6 (José)
+(6,8,1,10.00),
+(6,16,2,8.00),
+(6,20,1,10.00);
