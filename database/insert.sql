@@ -11,6 +11,28 @@ VALUES (
 ("Café Brigadeiro", "Chocolate com leite condensado, doce e viciante, permanecendo o armagor do café com suavidade.", 10, "Cafés", true),
 ("Café Caramelizado", "Café, leite e caramelo são colocados juntos, tendo um doce sabor.", 10, "Cafés", true);
 
+INSERT INTO Produto(nome, descricao, preco, categoria, disponivel)
+VALUES (
+"Brownie de Chocolate", "Brownie macio com sabor intenso de chocolate e casquinha crocante.", 15, "Doces", true),
+("Cheesecake de Frutas Vermelhase", "Creme leve sobre base crocante, com calda de frutas vermelhas.", 9, "Doces", true),
+("Torta de Limão", "Recheio cítrico equilibrado com cobertura leve e base crocante.", 12, "Doces", true),
+("Mousse de Maracujá", "Sobremesa cremosa com toque doce e levemente ácido.", 10, "Doces", true),
+("Petit Gateau", "Bolinho quente de chocolate com recheio cremoso", 20, "Doces", true),
+("Pavê de Chocolate", "Camadas de creme e biscoito com cobertura de chocolate.", 10, "Doces", true),
+("Pudim de Leite", "Clássico pudim cremoso com calda de caramelo.", 8, "Doces", true),
+("Cookie com Gotas de Chocolate", "Cookie crocante por fora e macio por dentro, com gotas de chocolate.", 7, "Doces", true);
+
+INSERT INTO Produto(nome, descricao, preco, categoria, disponivel)
+VALUES (
+"Coxinha de Frango", "Crocante por fora, com recheio cremoso de frango temperado.", 8, "Salgados", true),
+("Pão de Queijo", "Crocante e macio, com sabor intenso de queijo.", 6, "Salgados", true),
+("Empada de Frango", "Massa leve com recheio cremoso e saboroso.", 10, "Salgados", true),
+("Quiche de Queijo", "Massa crocante com recheio leve e cremoso.", 10, "Salgados", true),
+("Sanduíche Natural", "Leve, fresco e feito com ingredientes selecionados.", 8, "Salgados", true),
+("Esfiha de Carne", "Leve, fresco e feito com ingredientes selecionados.", 7, "Salgados", true),
+("Torta de Calabresa", "Fatia fofinha com recheio bem servido.", 10, "Salgados", true),
+("Croissant Presunto e Queijo", "Folhado leve com recheio cremoso.", 6, "Salgados", true);
+
 INSERT INTO Mesa(numero, capacidade)
 VALUES (
 1, 4),
