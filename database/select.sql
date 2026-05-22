@@ -1,4 +1,4 @@
-USE codcoffee;
+USE CODCOFFEE;
 
 SELECT * FROM Produto;
 describe cliente;
